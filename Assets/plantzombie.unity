@@ -1052,7 +1052,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 514329602}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 986841432}
+        m_TargetAssemblyTypeName: MenuGameover, Assembly-CSharp
+        m_MethodName: Menu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &514329602
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1104,7 +1116,7 @@ GameObject:
   - component: {fileID: 563275642}
   - component: {fileID: 563275643}
   m_Layer: 0
-  m_Name: lilit
+  m_Name: CheckGameOver
   m_TagString: limit
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1126,8 +1138,9 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
   m_Points:
-  - {x: 14.022848, y: 1.946518}
-  - {x: 13.981973, y: -6.5065117}
+  - {x: 14.251247, y: 0.66921735}
+  - {x: 14.486619, y: -6.0085835}
+  - {x: 14.357589, y: -6.16987}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
@@ -1245,7 +1258,7 @@ PrefabInstance:
       objectReference: {fileID: 271643562}
     - target: {fileID: 8957633345896756187, guid: a3501de78f34fea4b9f18b63850484f6, type: 3}
       propertyPath: prefabs.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8957633345896756187, guid: a3501de78f34fea4b9f18b63850484f6, type: 3}
       propertyPath: prefabs.Array.data[1]
@@ -1810,6 +1823,7 @@ GameObject:
   - component: {fileID: 986841429}
   - component: {fileID: 986841431}
   - component: {fileID: 986841430}
+  - component: {fileID: 986841432}
   m_Layer: 5
   m_Name: GameOver
   m_TagString: Untagged
@@ -1878,6 +1892,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 986841428}
   m_CullTransparentMesh: 1
+--- !u!114 &986841432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 986841428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08d48670d5c51b44a9fe8278b54c31dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &999073818
 GameObject:
   m_ObjectHideFlags: 0
@@ -2029,7 +2055,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1148401201}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 986841432}
+        m_TargetAssemblyTypeName: MenuGameover, Assembly-CSharp
+        m_MethodName: NewStarGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1148401201
 MonoBehaviour:
   m_ObjectHideFlags: 0
